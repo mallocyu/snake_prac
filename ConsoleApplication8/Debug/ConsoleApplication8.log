@@ -1,0 +1,16 @@
+﻿生成启动时间为 2019/8/16 22:31:24。
+     1>项目“C:\Users\mingt\Desktop\C学习\VS\ConsoleApplication8\ConsoleApplication8\ConsoleApplication8.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>c:\users\mingt\desktop\c学习\vs\consoleapplication8\consoleapplication8\main.c(42): warning C4013: “pos”未定义；假设外部返回 int
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mingt\Desktop\C学习\VS\ConsoleApplication8\Debug\ConsoleApplication8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\mingt\Desktop\C学习\VS\ConsoleApplication8\Debug\ConsoleApplication8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mingt\Desktop\C学习\VS\ConsoleApplication8\Debug\ConsoleApplication8.lib" /MACHINE:X86 Debug\main.obj
+     1>main.obj : error LNK2019: 无法解析的外部符号 _pos，该符号在函数 _createmap 中被引用
+     1>MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用
+     1>C:\Users\mingt\Desktop\C学习\VS\ConsoleApplication8\Debug\ConsoleApplication8.exe : fatal error LNK1120: 2 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\mingt\Desktop\C学习\VS\ConsoleApplication8\ConsoleApplication8\ConsoleApplication8.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.95
